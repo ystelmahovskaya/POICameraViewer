@@ -1,0 +1,14 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <header
+        android:fragment="com.example.yuliiastelmakhovska.poicameraviewer.SettingsActivity$PlacesPreferenceFragment"
+
+        android:title="@string/pref_header_places" />
+    <header
+        android:fragment="com.example.yuliiastelmakhovska.poicameraviewer.SettingsActivity$DBPreferenceFragment"
+
+        android:title="@string/pref_favorites" />
+
+
+</preference-headers>

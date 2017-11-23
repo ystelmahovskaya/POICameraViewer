@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.yuliiastelmakhovska.ski.MainActivity">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="Search" />
+
+
+    <group
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/places_set"
+            android:orderInCategory="1"
+            android:title="Settings">
+        </item>
+        <item
+            android:id="@+id/my_places"
+            android:orderInCategory="2"
+            android:title="Favorites">
+        </item>
+    </group>
+</menu>

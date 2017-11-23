@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">POICameraViewer</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_header_places">Places</string>
+    <string name="places">Choose places</string>
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_places_category">Place Categories</string>
+    <string name="pref_favorites">Edit favorites</string>
+    <string name="action_favorite">favorites</string>
+    <string name="googleAPIKey">AIzaSyA9jU7SOTlki4cRdxarrxK8OWfXCjWdPGA</string>
+    <string-array name="pref_list_places">
+        <!--<item>All</item>-->
+        <item>Airport</item>
+        <item>Atm</item>
+        <item>Bank</item>
+        <item>Bar</item>
+        <item>Bus station</item>
+        <item>Cafe</item>
+        <!--<item>Doctor</item>-->
+        <!--<item>Embassy</item>-->
+        <!--<item>Gym</item>-->
+        <!--<item>Hospital</item>-->
+        <!--<item>Lawyer</item>-->
+        <!--<item>Library</item>-->
+        <!--<item>Museum</item>-->
+        <!--<item>Night club</item>-->
+        <!--<item>Park</item>-->
+        <!--<item>Parking</item>-->
+        <!--<item>Pharmacy</item>-->
+        <!--<item>Police</item>-->
+        <!--<item>Restaurant</item>-->
+        <!--<item>University</item>-->
+
+    </string-array>
+    <string-array name="pref_list_places_values">
+        <!--<item>all</item>-->
+        <item>airport</item>
+        <item>atm</item>
+        <item>bank</item>
+        <item>bar</item>
+        <item>bus_station</item>
+        <item>cafe</item>
+        <!--<item>doctor</item>-->
+        <!--<item>embassy</item>-->
+        <!--<item>gym</item>-->
+        <!--<item>hospital</item>-->
+        <!--<item>lawyer</item>-->
+        <!--<item>library</item>-->
+        <!--<item>museum</item>-->
+        <!--<item>night_club</item>-->
+        <!--<item>park</item>-->
+        <!--<item>parking</item>-->
+        <!--<item>pharmacy</item>-->
+        <!--<item>police</item>-->
+        <!--<item>restaurant</item>-->
+        <!--<item>university</item>-->
+    </string-array>
+
+    <string name="preference_radius">Radius</string>
+    <string-array name="radius_names">
+        <item>50 m.</item>
+        <item>100 m.</item>
+        <item>200 m.</item>
+        <item>500 m.</item>
+        <item>1 km.</item>
+        <item>2 km.</item>
+        <item>5 km.</item>
+        <item>10 km.</item>
+        <item>20 km.</item>
+        <item>50 km.</item>
+    </string-array>
+    <string-array name="radius_values">
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>20000</item>
+        <item>50000</item>
+    </string-array>
+
+
+    <string name="title_activity_details">Details</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

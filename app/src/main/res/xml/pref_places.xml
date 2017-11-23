@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <MultiSelectListPreference
+        android:icon="@drawable/ic_action_list_2"
+        android:defaultValue="@array/pref_list_places_values"
+        android:entries="@array/pref_list_places"
+        android:entryValues="@array/pref_list_places_values"
+        android:key="listPlaces"
+        android:title="Categories" />
+    <ListPreference
+    android:icon="@drawable/ic_action_expand"
+        android:defaultValue="200"
+        android:entries="@array/radius_names"
+        android:entryValues="@array/radius_values"
+        android:key="listRadius"
+        android:title="@string/preference_radius" />
+</PreferenceScreen>
